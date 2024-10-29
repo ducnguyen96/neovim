@@ -18,6 +18,11 @@
     copilot-cmp = {
       enable = true;
     }; # copilot suggestions
+    copilot-lua = {
+      enable = true;
+      suggestion = {enabled = false;};
+      panel = {enabled = false;};
+    };
     cmp = {
       enable = true;
       autoEnableSources = false;
